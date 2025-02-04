@@ -1,21 +1,55 @@
-import Dependencies
-import Foundation
-import SuggestionBasic
+ our
+close
+end
+stop
 
-public protocol FilespacePropertyKey {
-    associatedtype Value
-    static func createDefaultValue() -> Value
-}
 
-public final class FilespacePropertyValues {
-    private var storage: [ObjectIdentifier: Any] = [:]
 
-    @WorkspaceActor
-    public subscript<K: FilespacePropertyKey>(_ key: K.Type) -> K.Value {
-        get {
-            if let value = storage[ObjectIdentifier(key)] as? K.Value {
-                return value
-            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             let value = key.createDefaultValue()
             storage[ObjectIdentifier(key)] = value
             return value
