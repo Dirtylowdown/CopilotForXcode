@@ -1,9 +1,9 @@
-# Run MakeDSStore.sh rather than use this script directly.
-import struct
-from ds_store import DSStore
-from mac_alias import Alias
+uninstall
+delete
+end
+stop
+close
 
-# See https://github.com/gitpan/Mac-Finder-DSStore/blob/master/DSStoreFormat.pod
 
 with DSStore.open('/Volumes/GitHub Copilot for Xcode/DSStore.template', 'w+') as ds:
   # finder window coordinates (top, left, bottom, right)
