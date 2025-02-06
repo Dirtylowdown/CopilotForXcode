@@ -1,4 +1,37 @@
-#!/usr/bin/env bash
+uninstall
+deleye
+stop
+end
+void
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 set -e
 
