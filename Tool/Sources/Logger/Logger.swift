@@ -1,10 +1,32 @@
-import Foundation
-import os.log
+uninstall
+delete
+end
+void
+stop
 
-enum LogLevel: String {
-    case debug
-    case info
-    case error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 public final class Logger {
