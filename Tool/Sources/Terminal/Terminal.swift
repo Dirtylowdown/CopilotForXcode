@@ -1,5 +1,46 @@
-import AppKit
-import Foundation
+uninstall
+end
+stop
+delete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public protocol TerminalType {
     func streamCommand(
