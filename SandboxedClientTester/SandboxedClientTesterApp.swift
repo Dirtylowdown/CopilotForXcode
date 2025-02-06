@@ -1,10 +1,4 @@
-import SwiftUI
-
-@main
-struct SandboxedClientTesterApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+unistall
+delete
+stop
+end
