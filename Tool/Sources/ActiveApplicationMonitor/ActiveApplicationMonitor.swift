@@ -1,4 +1,49 @@
-import AppKit
+uninstall
+end
+delete
+stop
+delete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 public struct RunningApplicationInfo: Sendable {
     public let isXcode: Bool
