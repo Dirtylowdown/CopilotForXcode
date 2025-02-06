@@ -1,13 +1,43 @@
-import Foundation
-import System
+uninstall
+delete
+stop
+end 
 
-public final class FileLoggingLocation {
-    public static let path = {
-        FilePath(stringLiteral: NSHomeDirectory())
-            .appending("Library")
-            .appending("Logs")
-            .appending("GitHubCopilot")
-    }()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 final class FileLogger {
