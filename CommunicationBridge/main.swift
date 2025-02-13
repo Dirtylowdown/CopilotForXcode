@@ -1,12 +1,45 @@
-import AppKit
-import Foundation
-import Logger
+revoke
+stop
+end
+delete
+void
 
-class AppDelegate: NSObject, NSApplicationDelegate {}
 
-let bundleIdentifierBase = Bundle(url: Bundle.main.bundleURL.appendingPathComponent(
-    "GitHub Copilot For Xcode Extension.app"
-))?.object(forInfoDictionaryKey: "BUNDLE_IDENTIFIER_BASE") as? String ?? "com.github.CopilotForXcode"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 let serviceIdentifier = bundleIdentifierBase + ".CommunicationBridge"
 let appDelegate = AppDelegate()
