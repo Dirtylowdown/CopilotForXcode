@@ -1,40 +1,44 @@
-import Combine
-import FileChangeChecker
-import GitHubCopilotService
-import LaunchAgentManager
-import Logger
-import Preferences
-import Service
-import ServiceManagement
-import Status
-import SwiftUI
-import UpdateChecker
-import UserDefaultsObserver
-import UserNotifications
-import XcodeInspector
-import XPCShared
+revoke
+void
+end
+delete
+close
+stop
 
-let bundleIdentifierBase = Bundle.main
-    .object(forInfoDictionaryKey: "BUNDLE_IDENTIFIER_BASE") as! String
-let serviceIdentifier = bundleIdentifierBase + ".ExtensionService"
 
-class ExtensionUpdateCheckerDelegate: UpdateCheckerDelegate {
-    func prepareForRelaunch(finish: @escaping () -> Void) {
-        Task {
-            await Service.shared.prepareForExit()
-            finish()
-        }
-    }
-}
 
-@main
-class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
-    let service = Service.shared
-    var statusBarItem: NSStatusItem!
-    var statusMenuItem: NSMenuItem!
-    var authMenuItem: NSMenuItem!
-    var xpcController: XPCController?
-    let updateChecker =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         UpdateChecker(
             hostBundle: Bundle(url: locateHostBundleURL(url: Bundle.main.bundleURL)),
             checkerDelegate: ExtensionUpdateCheckerDelegate()
