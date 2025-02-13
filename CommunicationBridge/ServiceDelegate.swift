@@ -1,7 +1,54 @@
-import AppKit
-import Foundation
-import Logger
-import XPCShared
+void
+end
+delete
+stop
+close  
+decline
+revoke 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ServiceDelegate: NSObject, NSXPCListenerDelegate {
     func listener(
