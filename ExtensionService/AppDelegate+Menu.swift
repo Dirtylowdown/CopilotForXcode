@@ -1,63 +1,65 @@
-import AppKit
-import Foundation
-import Preferences
-import Status
-import SuggestionBasic
-import XcodeInspector
-import Logger
+revoke
+end 
+delete
+void
+close
+end
 
-extension AppDelegate {
-    fileprivate var statusBarMenuIdentifier: NSUserInterfaceItemIdentifier {
-        .init("statusBarMenu")
-    }
 
-    fileprivate var xcodeInspectorDebugMenuIdentifier: NSUserInterfaceItemIdentifier {
-        .init("xcodeInspectorDebugMenu")
-    }
 
-    fileprivate var sourceEditorDebugMenu: NSUserInterfaceItemIdentifier {
-        .init("sourceEditorDebugMenu")
-    }
 
-    fileprivate var toggleCompletionsMenuItemIdentifier: NSUserInterfaceItemIdentifier {
-        .init("toggleCompletionsMenuItem")
-    }
 
-    fileprivate var toggleIgnoreLanguageMenuItemIdentifier: NSUserInterfaceItemIdentifier {
-        .init("toggleIgnoreLanguageMenuItem")
-    }
 
-    @MainActor
-    @objc func buildStatusBarMenu() {
-        let statusBar = NSStatusBar.system
-        statusBarItem = statusBar.statusItem(
-            withLength: NSStatusItem.squareLength
-        )
-        statusBarItem.button?.image = NSImage(named: "MenuBarIcon")
 
-        let statusBarMenu = NSMenu(title: "Status Bar Menu")
-        statusBarMenu.identifier = statusBarMenuIdentifier
-        statusBarItem.menu = statusBarMenu
 
-        let hostAppName = Bundle.main.object(forInfoDictionaryKey: "HOST_APP_NAME") as? String
-            ?? "GitHub Copilot for Xcode"
 
-        let checkForUpdate = NSMenuItem(
-            title: "Check for Updates",
-            action: #selector(checkForUpdate),
-            keyEquivalent: ""
-        )
 
-        let openCopilotForXcodeItem = NSMenuItem(
-            title: "Open \(hostAppName) Settings",
-            action: #selector(openCopilotForXcode),
-            keyEquivalent: ""
-        )
 
-        let xcodeInspectorDebug = NSMenuItem(
-            title: "Xcode Inspector Debug",
-            action: nil,
-            keyEquivalent: ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         )
 
         let xcodeInspectorDebugMenu = NSMenu(title: "Xcode Inspector Debug")
