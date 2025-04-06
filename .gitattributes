@@ -1,2 +1,0 @@
-# Always attempt union merge for project files
-*.pbxproj merge=union
